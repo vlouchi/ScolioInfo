@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.android.scolioinfo.pengobatan">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perawatan"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:shadowColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Observasi dengan pemeriksaan fisik dan Xray dapat dilakukan setiap 4 hingga enam bulan untuk memantau perkembangan lengkungan "
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/personalxray"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Penyangga diperlukan untuk menghentikan lengkungan tulang belakang bertambah parah. Biasanya diberikan pada penderita skoliosis yang masih dalam masa pertumbuhan. Hal ini tidak menyembuhkan namun dapat digunakan untuk mencegah bertambah parahnya skoliosis."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bracecrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Perawatan dengan menggunakan obat-obatan biasanya diberikan pada penderita skoliosis dewasa dengan tujuan meredakan nyeri. "
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/medicine"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. . Operasi hanya dilakukan apabila perawatan skoliosis lainnya tidak berhasil. Operasi akan memperkuat tulang belakang menggunakan sekrup dan tangkai baja."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/srugery"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
