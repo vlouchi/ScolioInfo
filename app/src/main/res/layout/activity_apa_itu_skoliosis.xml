@@ -34,7 +34,7 @@
             android:text="Skolisos merupakan kelainan pada rangka tubuh yang berupa kelengkungan tulang belakang. Kasus skoliosis merupakan kelainan yang tidak diketahui penyebabnya (idiofatik). Sikap tubuh salah secara terus menerus dapat menjadi salah satu faktor penyebabnya.
 "
             android:textSize="14sp"
-            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical|right"
             android:layout_marginTop="16dp"
             android:textColor="@android:color/black"
             android:layout_margin="8sp"

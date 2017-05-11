@@ -54,6 +54,50 @@
             android:layout_width="match_parent"
             android:layout_height="191.25dp"
             android:src="@drawable/ccurved"
+            android:id="@+id/ccurved"
+            />
+        <TextView
+            android:id="@+id/penjelasanccurved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:layout_margin="8sp"
+            android:text="-	Umumnya terjadi pada bagian thoracolumbal, kemungkinan terjadi dikarenakan posisi asimetri dalam waktu yang lama, kelemahan otot, atau sitting balance yang tidak baik."
+            android:layout_below="@id/ccurved"
+            />
+
+        <TextView
+            android:id="@+id/kurvas"
+            android:layout_below="@id/penjelasanccurved"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8sp"
+            android:text="1. Kurva S "/>
+
+        <ImageView
+            android:layout_below="@id/kurvas"
+            android:layout_width="match_parent"
+            android:layout_height="191.25dp"
+            android:src="@drawable/scurved"
+            android:id="@+id/scurved"
+            />
+
+        <TextView
+            android:id="@+id/penjelasanscurved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:layout_margin="8sp"
+            android:text="-	Lebih sering terjadi pada skoliosis yang idiopatik, di thoracal kanan dan lumbal kiri."
+            android:layout_below="@id/scurved"
             />
 
     </RelativeLayout>
