@@ -8,15 +8,35 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apa itu skoliosis?"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:shadowColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
             />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:id="@+id/skoliosis"
+            android:layout_width="match_parent"
+            android:layout_height="191.25dp"
+            android:src="@drawable/curved"
+            android:layout_below="@id/judul"
+            android:foregroundGravity="center_horizontal"
+            />
 
+        <TextView
+            android:layout_below="@id/skoliosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skolisos merupakan kelainan pada rangka tubuh yang berupa kelengkungan tulang belakang. Kasus skoliosis merupakan kelainan yang tidak diketahui penyebabnya (idiofatik). Sikap tubuh salah secara terus menerus dapat menjadi salah satu faktor penyebabnya.
+"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            />
 
 
     </RelativeLayout>

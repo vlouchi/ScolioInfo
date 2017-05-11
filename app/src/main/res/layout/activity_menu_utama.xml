@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
@@ -9,52 +10,51 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/scolio_logo"
-        android:padding="16dp"
+        android:padding="8sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logotransparent"
+        android:layout_weight="1"
         />
 
     <Button
-        android:id="@+id/apaituskoliosis"
-        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Apa itu skoliosis?"
         android:layout_below="@id/logos"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:padding="8dp"
         />
 
     <Button
-        android:id="@+id/jenisskoliosis"
-        android:layout_width="250dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Jenis Skoliosis"
-        android:layout_below="@id/apaituskoliosis"
-        android:layout_centerInParent="true"
+        android:text="Kurva Skoliosis"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
         />
 
     <Button
-        android:id="@+id/gejala_penyebab"
-        android:layout_width="250dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/jenisskoliosis"
-        android:text="Gejala dan Penyebab"
-        android:layout_centerInParent="true"
+        android:text="Gejala"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
         />
 
     <Button
-        android:id="@+id/Penanganan"
-        android:layout_width="250dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/gejala_penyebab"
-        android:text="Penanganan"
-        android:layout_centerInParent="true"
+        android:text="Perawatan"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
         />
 
-    <Button
-        android:id="@+id/do_and_donts"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Do and Don't"
-        android:layout_below="@id/Penanganan"
-        android:layout_centerInParent="true"
-        />
-    </RelativeLayout>
+      </LinearLayout>
