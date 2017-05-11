@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kurva Skoliosis"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:shadowColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:id="@+id/gambarutama"
+            android:layout_below="@id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="191.25dp"
+            android:src="@drawable/curved"
+            android:layout_marginBottom="16sp"
+            />
+
+        <TextView
+            android:id="@+id/terdapat2"
+            android:layout_below="@id/gambarutama"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8sp"
+            android:text="Terdapat 2 bentuk skoliosis : "/>
+
+        <TextView
+            android:id="@+id/penjelasan_c"
+            android:layout_below="@id/terdapat2"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8sp"
+            android:text="1. Kurva C "/>
+
+        <ImageView
+            android:layout_below="@id/penjelasan_c"
+            android:layout_width="match_parent"
+            android:layout_height="191.25dp"
+            android:src="@drawable/ccurved"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    </ScrollView>
