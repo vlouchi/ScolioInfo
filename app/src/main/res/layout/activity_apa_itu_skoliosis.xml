@@ -22,7 +22,7 @@
             android:id="@+id/skoliosis"
             android:layout_width="match_parent"
             android:layout_height="191.25dp"
-            android:src="@drawable/skolio_lumbar_C"
+            android:src="@drawable/skolio_lumbar_c"
             android:layout_below="@id/judul"
             android:foregroundGravity="center_horizontal"
             />

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pencegahan"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:shadowColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Hindari kegiatan yang membutuhkan pekerjaan yang terlalu keras hanya pada satu sisi tubuh, jenis umum dari skoliosis, disebut dengan skoliosis idiopatik, sebagian besar disebabkan oleh ketidakseimbangan otot. Karena itu, hindarilah membawa tas, kantung belanja atau apapun yang terlalu berat pada salah satu bagian tubuh saja."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Latihan otot punggung. Memiliki otot punggung yang kuat dan stabil sama saja dengan mencegah terjadinya penyakit skoliosis, karena otot punggung yang mendukung tulang belakang akan menjaganya dalam kondisi kurva yang tepat. Beberapa latihan kekuatan direkomendasikan yaitu pada latihan kekuatan pada punggung, kaki dan juga kekuatan otot lengan."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Mendapatkan asupan vitamin dan mineral yang tepat. Kalsium memberikan kontribusi penting untuk menjaga kesehatan tulang. Jadi makan makanan seperti oatmeal, kacang kedelai (lebih baik direbus tanpa garam), almond, dan bahkan sarden akan menjaga tulang tetap kuat dan stabil, sehingga penyakit skoliosis atau penyakit tulang bengkokpun dapat dihindari."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
